@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.stroke {
+  font-size: 70px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-fill-color: #ffffff;
+  letter-spacing: 14px;
+  font-family: Krona One;
+  text-shadow: -8px 2px 0px #5e4cd7;
+}
+
+.subTitle {
+  font-family: Koulen, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.bgBarra{
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.number {
+  font-family: Koulen, sans-serif;
+  text-shadow: -6px 6px 7px rgba(0, 0, 0, 0.25);
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; /* 4% */
+  letter-spacing: 4px;
+  text-align: center;
+  z-index: 100;
+}
+
+.off {
+  z-index: 100;
+  color: #000;
+  text-align: center;
+  text-shadow: -6px 6px 7px rgba(0, 0, 0, 0.25);
+  font-family: Koulen, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 0em; /* 8% */
+}
+.cuotas {
+  color: #000;
+  text-align: center;
+  font-family: 'Koulen', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; /* 30% */
+  letter-spacing: 5px;
+}
+
+.interes {
+    
+  color: #000;
+  font-family: 'Koulen', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2px;
+  letter-spacing: 4px;
+}
+
+.lineHeight{
+  letter-spacing: 7.8px;
+}
+
+.filter{
+ background-blend-mode: exclusion;
+}
+
+.backgroundPay{
+background-color: rgba(66, 47, 183, 0.10);
+}
+
+.titlePay{
+  letter-spacing: 18px;
+
+}
