@@ -1,9 +1,11 @@
 import React from "react";
 import Steps from "./Steps";
+import { driver } from "driver.js";
+import "driver.js/dist/driver.css";
 
 export default function Main() {
   return (
-    <div className="h-[69rem]  bgMain bg-[url('../../public/img/mascara.jpeg')] bg-brightness-0.1 bg-cover bg-center  bg-opacity-10  filtroMain ">
+    <div className="h-[69rem] mainBackground bg-brightness-0.1 bg-cover bg-center  bg-opacity-10  filtroMain ">
 
       <div className="bgBarra bg-opacity-80 h-80 my-auto top-48 relative flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center">

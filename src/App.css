@@ -89,3 +89,6 @@ background-color: rgba(66, 47, 183, 0.10);
   letter-spacing: 18px;
 
 }
+.mainBackground{
+  background-image: url("./assets/img/mascara.jpeg");
+}
